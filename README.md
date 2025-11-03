@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # flask-coldspace-jill
 =======
+=======
+>>>>>>> main
 # Cadastro Inteligente — Flask + SQLite (Pronto para Coldspace)
 
 Projeto de exemplo para a disciplina que integra: bases numéricas, arquitetura computacional, sistemas operacionais, bancos de dados e redes.
@@ -33,4 +36,7 @@ Projeto de exemplo para a disciplina que integra: bases numéricas, arquitetura 
 
 ---
 Professor: Isaque Katahira
+<<<<<<< HEAD
 >>>>>>> a8fa83c (Inicial: commit do projeto)
+=======
+>>>>>>> main
