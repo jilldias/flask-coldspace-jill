@@ -1,0 +1,38 @@
+<!--
+Arquitetura e Organização de Computadores: Prof. Isaque Katahira - 31/10/2025
+Ementa: Projeto de integração: Arquitetura, SO, Banco de Dados e Redes.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Usuário</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Editar Usuário</h1>
+        
+        <form method="post" class="form">
+            <input 
+                type="text" 
+                name="nome" 
+                placeholder="Nome" 
+                value="{{ usuario.nome }}" 
+                required
+            >
+            <input 
+                type="number" 
+                name="idade" 
+                placeholder="Idade" 
+                value="{{ usuario.idade }}" 
+                required
+            >
+            <button type="submit">Salvar Alterações</button>
+        </form>
+        
+        <a href="/">🔙 Voltar</a>
+    </div>
+</body>
+</html>
